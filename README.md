@@ -1,6 +1,6 @@
 # Wheelbase Widget WordPress Plugin
 
-WordPress plugin that embeds the [Wheelbase](https://www.wheelbasepro.com) rental storefront on any WordPress page or post using a simple shortcode.
+WordPress plugin that embeds the [Wheelbase](https://www.wheelbasepro.com) rental storefront on any WordPress page or post using a simple shortcode. See the full [documentation](https://wheelbase-docs.wheelbasepro.com/embedded/wordpress).
 
 ## Installation
 
@@ -22,6 +22,7 @@ Add the `[wheelbase-widget]` shortcode to any page or post. The only required at
 | Attribute                | Type    | Required | Description                                           |
 | ------------------------ | ------- | -------- | ----------------------------------------------------- |
 | `dealer-id`              | number  | Yes      | Your Wheelbase dealer ID                              |
+| `store-type`             | string  | No       | Type of rentals: `rv` or `auto` (defaults to `rv`)    |
 | `background-color`       | string  | No       | Custom background color (e.g. `#f8f9fa`)              |
 | `primary-color`          | string  | No       | Primary theme color                                   |
 | `secondary-color`        | string  | No       | Secondary theme color                                 |
@@ -58,6 +59,12 @@ French locale:
 
 ```
 [wheelbase-widget dealer-id="24019" locale="fr-fr"]
+```
+
+Auto rentals:
+
+```
+[wheelbase-widget dealer-id="24019" store-type="auto"]
 ```
 
 ## How It Works
