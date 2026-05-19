@@ -32,6 +32,7 @@ Add the `[wheelbase-widget]` shortcode to any page or post. The only required at
 | `hide-hero`              | boolean | No       | Hide the hero section (`true`/`false`)                |
 | `hide-filters`           | boolean | No       | Hide search filters (`true`/`false`)                  |
 | `hide-calendar-view`     | boolean | No       | Hide calendar/list view toggle (`true`/`false`)       |
+| `hide-locale-selector`   | boolean | No       | Hide language/locale selector dropdown (`true`/`false`) |
 | `show-reviews`           | boolean | No       | Show reviews in listing header (`true`/`false`)       |
 | `locale`                 | string  | No       | Language locale (e.g. `en-us`, `fr-fr`, `de-de`)      |
 | `env`                    | string  | No       | Environment: `production` or `staging`                |
